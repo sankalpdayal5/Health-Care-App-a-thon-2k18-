@@ -127,7 +127,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editText10"
         android:inputType="textCapWords"
-        android:layout_below="@+id/editText10" />
+        android:layout_below="@+id/editText10"
+        android:id="@+id/editText11" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -139,5 +140,13 @@
         android:paddingStart="30dp"
         android:text="Tests"
         android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Submit" />
 
 </RelativeLayout>

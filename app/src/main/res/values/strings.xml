@@ -5,4 +5,47 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="main_text">App-A-Thon \n\n
+
+        Main Page: \n\t
+        User should select either client or doctor.\n\t
+        If select client then it can enter a new form, else he can also see other prescriptions of other people with the same problems.\n\t
+        If select doctor then he can see all the submitted forms and he can answer to their problems.\n\t
+        He can also visit some nearby hospitals\n\n
+
+        New Application:\n
+        Patient has to enter his/her details for submitting the form including their problems.\n\t
+
+        Doctor details:\n\t
+        He can see all the list of forms that have been submitted so far.\n\t
+        He can categorise based on the type of the problems.\n\t
+        He can also sort it on the basis of date modified\n\n
+
+        Patient details:\n\t
+        Patient\'s info\n\n
+
+        Checking mechanism:\n\t
+        It includes blood pressure, heart-beat rate, blood viscosity, oxygen level , pulse wave etc which can be used to detect the problems or diseases
+        which can be present in humans based on machine learning and artificial algorithms.\n\t
+        Once detected by the algorithms, it will be cross verified by the doctors and can be assigned as approved or dis-approved by them just as like button
+        in facebook.\n\n
+
+        Communication:\n\t
+        For the convenience of communication problems, we can included calling, emails and messaging features.\n\t
+        The doctors will get notifications for all the prescriptions submitted by the patients in those categories selected by the doctor.\n\n
+
+        Map:\n\t
+        Patients can see nearby hospitals and doctors available.  Travel agencies and food courts.\n\t
+        Doctors can see the patients that are presently in their range.\n\t
+        Colour code for the level of emergency.\n\n
+
+        Prescription:\n\t
+        Clients i.e. patients will give their details of problems which can be only seen by the doctors.\n\n
+
+        Report:\n\t
+        User can only see this. It will be edited only by the doctor. They can mention the medicines and other tests that they will prescribe which can be
+        checked by the AI and machine learning procedures.\n\n\n
+
+
+        Check us for more updates. See you soon !!</string>
 </resources>

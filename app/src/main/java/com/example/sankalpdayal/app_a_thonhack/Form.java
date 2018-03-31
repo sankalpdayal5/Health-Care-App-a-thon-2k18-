@@ -24,6 +24,8 @@ public class Form extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
+
         RadioButton rbf = (RadioButton)findViewById(R.id.female);
         RadioButton rbm = (RadioButton)findViewById(R.id.male);
 
@@ -43,7 +45,7 @@ public class Form extends AppCompatActivity {
         form_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (n.isEmpty() || n2.isEmpty() || n3.isEmpty() || n4.isEmpty()){
+                if (n.isEmpty()){
                     Toast.makeText(Form.this, "Fill the required fields", Toast.LENGTH_SHORT).show();
                 }
                 else {

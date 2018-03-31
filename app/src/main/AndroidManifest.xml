@@ -19,9 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Form" />
-        <activity android:name=".Prescription" />
-        <activity android:name=".Report"></activity>
+        <activity android:name=".Form"
+            android:label="Application Form"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Prescription"
+            android:label="Prescription"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Report"
+            android:label="Report"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
